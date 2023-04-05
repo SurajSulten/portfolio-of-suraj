@@ -34,7 +34,7 @@ const About = () => {
               <small>80+ Completed</small>
             </article>
           </div> */}
-          <p>My name is Suraj. I am 21 years old. I study at the Tashkent Institute of Finance. I'm a Web Developer .</p>
+          <p>My name is Suraj. I am 21 years old. I have graduated Front-end course at "RSSchool".  And I have a bachelor degree at the Tashkent Institute of Finance.</p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>        
         </div>
       </div>
