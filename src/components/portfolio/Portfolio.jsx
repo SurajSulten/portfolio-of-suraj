@@ -1,55 +1,58 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio-img1.jpg'
-import IMG2 from '../../assets/portfolio-img2.jpg'
-import IMG3 from '../../assets/portfolio-img3.jpg'
+import IMG1 from '../../assets/emguImage.jpg'
+import IMG2 from '../../assets/HuoneImage.jpg'
+import IMG3 from '../../assets/nefrologiyaImage.jpg'
+import IMG4 from '../../assets/RamazonImage.jpg'
+import IMG5 from '../../assets/ziyookulineImage.jpg'
+import IMG6 from '../../assets/eurosoftImage.jpg'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Cozy House',
+    title: 'EMGU',
     languages: '(HTML, SASS, JavaScript)',
     github: 'https://github.com/SurajSulten',
-    demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
+    demo: 'https://emgu.uz'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Shopping Cart',
+    title: 'Huone',
     languages: '(React.js, TypeScript)',
     github: 'https://github.com/SurajSulten',
-    demo: 'https://idyllic-churros-d5460f.netlify.app/'
+    demo: 'https://huone.uz'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Budget App',
+    title: 'Nefrologiya',
     languages: '(React.js, Bootstrap)',
     github: 'https://github.com/SurajSulten',
-    demo: 'https://grand-treacle-bbd7ec.netlify.app/'
+    demo: 'https://nefro.ssv.uz'
   },
-  // {
-  //   id: 4,
-  //   image: IMG1,
-  //   title: 'Cozy House',
-  //   github: 'https://github.com',
-  //   demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
-  // },
-  // {
-  //   id: 5,
-  //   image: IMG1,
-  //   title: 'Cozy House',
-  //   github: 'https://github.com',
-  //   demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
-  // },
-  // {
-  //   id: 6,
-  //   image: IMG1,
-  //   title: 'Cozy House',
-  //   github: 'https://github.com',
-  //   demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
-  // }
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Ramazon Taqvimi',
+    github: 'https://github.com',
+    demo: 'https://play.google.com/store/apps/details?id=uz.ramadan.uz_ramadan_app&hl=ru&gl=US'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Ziyookline',
+    github: 'https://github.com',
+    demo: 'https://ziyookline.uz/ru/'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Eurosoft',
+    github: 'https://github.com',
+    demo: 'https://eurosoft.uz/#/'
+  }
 ]
 
 const Portfolio = () => {
@@ -66,11 +69,11 @@ const Portfolio = () => {
                 <div className="portfolio__item-image">
                   <img src={image} alt={title} />
                 </div>
-                <h3>{title}</h3>
-                <h4>{languages}</h4>
+                <h3 style={{marginBottom: '15px'}}>{title}</h3>
+                {/* <h4>{languages}</h4> */}
                 <div className="portfolio__item-cta">
-                  <a href={github} className="btn" target='_blank' rel='noreferrer'>Github</a>
-                  <a href={demo} className="btn btn-primary" target='_blank' rel='noreferrer'>Live Demo</a>
+                  {/* <a href={github} className="btn" target='_blank' rel='noreferrer'>Github</a> */}
+                  <a href={demo} className="btn btn-primary" target='_blank' rel='noreferrer'>Website</a>
                 </div>
               </article>
             )

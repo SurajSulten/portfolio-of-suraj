@@ -31,14 +31,14 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>suraj.sulten@gmail.com</h5>
-            <a href="mailto:suraj.sulten@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
+            <h5>mrzaqulovbegzod@gmail.com</h5>
+            <a href="mailto:mrzaqulovbegzod@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className="contact__option">
             <TbBrandTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
-            <h5>suraj_sd</h5>
-            <a href="https://t.me/suraj_sd" target='_blank' rel='noreferrer'>Send a message</a>
+            <h5>sql_me</h5>
+            <a href="https://t.me/sql_me" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           {/* <article className="contact__option">
             <CiFacebook className='contact__option-icon'/>
