@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 .portfolio__item-image img {
-    width: 360px;
+    max-width: 360px;
     height: 226px;
     object-fit: cover;
 }
