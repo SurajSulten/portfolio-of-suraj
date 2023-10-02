@@ -3,10 +3,19 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio-img1.jpg'
 import IMG2 from '../../assets/portfolio-img2.jpg'
 import IMG3 from '../../assets/portfolio-img3.jpg'
+import IMG4 from '../../assets/emgu.jpg'
 
 const data = [
   {
     id: 1,
+    image: IMG4,
+    title: 'EMGU.UZ',
+    languages: '(React.js, Redux Toolkit)',
+    github: 'https://github.com',
+    demo: 'https://emgu.uz'
+  },
+  {
+    id: 2,
     image: IMG1,
     title: 'Cozy House',
     languages: '(HTML, SASS, JavaScript)',
@@ -14,7 +23,7 @@ const data = [
     demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
   },
   {
-    id: 2,
+    id: 3,
     image: IMG2,
     title: 'Shopping Cart',
     languages: '(React.js, TypeScript)',
@@ -22,20 +31,13 @@ const data = [
     demo: 'https://idyllic-churros-d5460f.netlify.app/'
   },
   {
-    id: 3,
+    id: 4,
     image: IMG3,
     title: 'Budget App',
     languages: '(React.js, Bootstrap)',
     github: 'https://github.com/SurajSulten',
     demo: 'https://grand-treacle-bbd7ec.netlify.app/'
   },
-  // {
-  //   id: 4,
-  //   image: IMG1,
-  //   title: 'Cozy House',
-  //   github: 'https://github.com',
-  //   demo: 'https://surajsulten.github.io/SHelter_Adaptive/'
-  // },
   // {
   //   id: 5,
   //   image: IMG1,

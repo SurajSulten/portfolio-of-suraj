@@ -18,6 +18,11 @@
     border-radius: 1.5rem;
     overflow: hidden;
 }
+.portfolio__item-image img {
+    width: 360px;
+    height: 226px;
+    object-fit: cover;
+}
 .portfolio__item h3 {
     margin: 1.2rem 0 0;
 }

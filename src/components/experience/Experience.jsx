@@ -40,20 +40,34 @@ const Experience = () => {
                 <small className='text-light'>Intermediate</small>
               </div>
             </article>
-            {/* <article className="experience__details">
+            <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4></h4>
+                <h4>Antd</h4>
                 <small className='text-light'>Experienced</small>
               </div>
-            </article> */}
-            {/* <article className="experience__details">
+            </article>
+            <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4>Tailwind</h4>
                 <small className='text-light'>Experienced</small>
               </div>
-            </article> */}
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>MUI</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Figma</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}
@@ -81,20 +95,27 @@ const Experience = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
-            {/* <article className="experience__details">
+            <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Intermediate</small>
+                <h4>Redux Toolkit</h4>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>SASS/SCSS</h4>
+                <h4>Git</h4>
                 <small className='text-light'>Experienced</small>
               </div>
-            </article> */}
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Github</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>
